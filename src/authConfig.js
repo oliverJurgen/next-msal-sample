@@ -4,7 +4,9 @@ export const msalConfig = {
   auth: {
     clientId,
     authority:
-      "https://dantegulapa.b2clogin.com/dantegulapa.onmicrosoft.com/B2C_1_signupsignin1",
+      "https://dantegulapa.b2clogin.com/dantegulapa.onmicrosoft.com/B2C_1A_SIGNUP_SIGNIN",
+    // "https://dantegulapa.b2clogin.com/dantegulapa.onmicrosoft.com/B2C_1_signupsignin1",
+
     knownAuthorities: ["dantegulapa.b2clogin.com"],
     // authority: "https://login.microsoftonline.com/common",
     redirectUri: "https://next-msal-sample.vercel.app/",
